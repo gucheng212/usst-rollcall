@@ -1,0 +1,26 @@
+# 运行期数据：会话 Cookie、设置、设备号、缓存、日志（含个人登录态，绝不提交）
+.data/
+
+# 开发期抓包产物
+.probe/
+
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# 编辑器与系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 打包产物
+dist/
+*.zip
+*.log
+
+# 安装包与解包结果（体积大，且与个人无关，但没必要进仓库）
+*.apk
+apk/
